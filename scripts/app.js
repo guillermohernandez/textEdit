@@ -4,4 +4,4 @@ document.getElementById("content").innerHTML = localStorage["content"] || "Put s
 setInterval(function(){
     localStorage["header"] = document.getElementById("header").innerHTML;
     localStorage["content"] = document.getElementById("content").innerHTML;
-})
+},2000)
